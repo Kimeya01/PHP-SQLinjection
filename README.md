@@ -9,8 +9,9 @@ https://github.com/Kimeya01/PHP-SQLinjection/blob/main/Copyme.txt
 
 3. Give permissions and run the setup.sh file.
 
-`sudo chmod 777 setup.sh
-sudo ./setup.sh`
+`sudo chmod 777 setup.sh`
+
+`sudo ./setup.sh`
 
 Enjoy 😁
 
