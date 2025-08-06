@@ -5,9 +5,7 @@ How to setup
 
 2. copy code inside Copyme.txt into setup.sh file
  
-`https://github.com/Kimeya01/PHP-SQLinjection/blob/main/Copyme.txt`
 https://github.com/Kimeya01/PHP-SQLinjection/blob/main/Copyme.txt
-
 
 3. Give permissions and run the setup.sh file.
 
