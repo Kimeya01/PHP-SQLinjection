@@ -8,11 +8,9 @@ How to setup
 `#!/bin/bash
 set -e
 
-# Update & install necessary packages
 sudo apt update
 sudo apt install -y apache2 php libapache2-mod-php php-mysql mysql-server phpmyadmin ufw git openssh-server
 
-# Enable & start services
 sudo systemctl enable apache2
 sudo systemctl start apache2
 sudo systemctl enable mysql
@@ -20,7 +18,6 @@ sudo systemctl start mysql
 sudo systemctl enable ssh
 sudo systemctl start ssh
 
-# Setup MySQL Database & User
 sudo mysql <<A
 ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'yourpassword';
 FLUSH PRIVILEGES;
